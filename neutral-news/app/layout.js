@@ -1,12 +1,15 @@
 import "./globals.css";
-import MainHeader from "@/components/main-header/MainHeader";
+import dotenv from 'dotenv';
 
 export const metadata = {
-  title: "N-News",
+  title: "P-News",
   description: "Personal News-Page",
 };
 
 export default function RootLayout({ children }) {
+
+  dotenv.config()
+
   return (
     <html lang="en">
       <head>

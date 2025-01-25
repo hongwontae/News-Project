@@ -13,7 +13,7 @@ function MainHeader() {
           <ul className="grid grid-cols-main-header-template text-center w-full">
             <li className="text-[2rem]">
               <Link
-                href={"/"}
+                href={"/home"}
                 className={`${pathname.endsWith("/") ? "text-red-300" : null}`}
               >
                 Home

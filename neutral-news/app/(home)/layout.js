@@ -2,7 +2,7 @@ import "../globals.css";
 import MainHeader from "@/components/main-header/MainHeader";
 
 export const metadata = {
-  title: "N-News",
+  title: "P-News",
   description: "Personal News-Page",
 };
 
